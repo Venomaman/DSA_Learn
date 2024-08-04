@@ -27,11 +27,7 @@ class pair {
 }
 
 class Solution {
-    // Function to find the maximum number of meetings that can
-    // be performed in a meeting room.
     public int maxMeetings(int n, int start[], int end[]) {
-        // add your code here
-
         ArrayList<pair> arr = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             arr.add(new pair(start[i], end[i]));
